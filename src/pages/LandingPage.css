@@ -1,0 +1,41 @@
+.landing-container {
+  height: 100vh;
+  background-image: url('https://images.unsplash.com/photo-1607478900766-efe132d11543');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+  color: white;
+  max-width: 600px;
+}
+
+.company-name {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.description {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.get-started-btn {
+  background-color: #4CAF50;
+  padding: 0.75rem 2rem;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.get-started-btn:hover {
+  background-color: #45a049;
+}
